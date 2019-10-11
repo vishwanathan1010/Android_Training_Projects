@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_my_cards"
+            android:icon="@drawable/icon_credit_card"
+            android:title="@string/navigation_cards" />
+        <item
+            android:id="@+id/nav_my_photos"
+            android:icon="@drawable/icon_photo_library"
+            android:title="@string/navigation_photos" />
+        <item
+            android:id="@+id/nav_my_keys"
+            android:icon="@drawable/icon_vpn_key_"
+            android:title="@string/navigation_keys" />
+        <item
+            android:id="@+id/nav_my_aboutus"
+            android:icon="@drawable/icon_about_us"
+            android:title="@string/navigation_about_us" />
+        <item
+            android:id="@+id/nav_my_help"
+            android:icon="@drawable/icon_help"
+            android:title="@string/navigation_help" />
+        <item
+            android:id="@+id/nav_my_settings"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/navigation_settings" />
+        <item
+            android:id="@+id/nav_my_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/navigation_logout" />
+        <item
+            android:id="@+id/nav_version"
+            android:title="@string/navigation_version" />
+    </group>
+
+</menu>
